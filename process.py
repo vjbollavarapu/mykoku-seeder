@@ -164,6 +164,7 @@ def post_schools():
     for inc in range(1, 4):
         payload = {
             "name": "School " + str(inc),
+            "schoolid": str(inc),
             "address1": "Address 1 " + str(inc),
             "address2": "Address 2 " + str(inc),
             "city": "City " + str(inc),
